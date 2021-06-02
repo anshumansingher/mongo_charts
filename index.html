@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <div id="nav">
+        <button id="refresh">Refresh Chart</button>
+        <label
+          >Filter by city
+          <select id="city-filter">
+            <option value="">--All--</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Hyderabad">Hyderabad</option>
+          </select>
+        </label>
+      </div>
+      <div id="chart" />
+    </main>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
